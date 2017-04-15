@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+    <header>
+    	<h1>Wikipedia Viewer</h1>
+    </header>
+    <section>
+	        <form class="search-form">
+	            <input type="search" name="wikisearch" class="search-field" placeholder="Search...">
+	            <input type="submit" id="search" value="Go">
+	            <button onclick="location.href='https://en.wikipedia.org/wiki/Special:Random';" type="button" class="random-srch">Random Search
+	            </button>
+	         </form>
+	         <ul id="output"></ul>
+    </section>
+    <footer>
+    	<p>All Rights Reserved &copy; 2017.</p>
+    </footer>
+    </div>
+</body>
+
+</html>
