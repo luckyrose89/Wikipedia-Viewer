@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.6em;
+	font-family: 'Roboto', sans-serif;
+	background: #304848;
+	color: #F0D8D8;
+}
+
+a {
+    color: #F0D8D8;
+    text-decoration: none;
+}
+
+#container {
+	width: 70%;
+	background: #304860;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	padding: 15px;
+	text-decoration: underline;
+}
+
+.search-form {
+	margin: 20px auto;
+	display: block;
+	width: 46.875%;
+	height: 20.8%;
+	text-align: center;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.search-field {
+	width: 60%;
+	display: block;
+	padding: 20px;
+	margin: auto;
+	font-size: 1.3em;
+	border: 2px #A8A8A8 solid;
+	border-radius: 5px;
+}
+
+#search {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 100px;
+	right: 565px;
+	border: none;
+	cursor: pointer;
+}
+
+.random-srch {
+	margin: 8px;
+	background: #304860;
+	padding: 5px;
+	color: #F0D8D8;
+	border: 1px solid #F0D8D8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.list {
+	list-style: none;
+	padding: 8px 20px;
+}
+
+.list h3 {
+	text-decoration: underline;
+}
+
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(40,40,40,.5);
+}
+
